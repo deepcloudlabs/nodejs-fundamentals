@@ -1,0 +1,1 @@
+curl -X POST "http://localhost:8100/hr/api/v1/employees" -d "{\"_id\": \"11111111110\", \"fullname\": \"jack bauer\", \"iban\": \"TR740006282973364859697859\", \"salary\": 100000, \"department\": \"HR\", \"fulltime\": false, \"birthYear\": 1964, \"email\": \"jack@example.com\"}" -H "Content-Type: application/json" -H "Accept: application/json"
